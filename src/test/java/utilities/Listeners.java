@@ -26,7 +26,7 @@ public class Listeners extends TestListenerAdapter {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host name", "localhost");
-        extent.setSystemInfo("Enviornment", "QA");
+        extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("Project Name", "Stripe API");
         extent.setSystemInfo("user", "Aayush");
 

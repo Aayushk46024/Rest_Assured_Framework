@@ -59,7 +59,7 @@ public class TC001_Get_All_Customers extends TestBase {
         if (responseTime > 2000)
 
             logger.warn("Response time is greater then 2000");
-        Assert.assertTrue(responseTime > 2000);
+        Assert.assertTrue(responseTime < 2000);
 
 
     }

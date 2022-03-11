@@ -9,6 +9,9 @@
             <class name="Testcases.TC001_Get_All_Customers"/>
             <class name="Testcases.TC002_Get_Single_Customer"/>
             <class name="Testcases.TC003_Add_Customer"/>
+            <class name="Testcases.Add_Customer"></class>
+            <class name="Testcases.ReqRes_Add_Customer"></class>
+            <class name="Testcases.Reqres_Delete_Customer"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

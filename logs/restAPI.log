@@ -1277,3 +1277,5635 @@
 2022-02-17 18:33:53 INFO  RestAssuredAPITesting_StripeProject:42 - **************Checking Status Code************
 2022-02-17 18:33:53 INFO  RestAssuredAPITesting_StripeProject:59 - **************Checking Status Line************
 2022-02-17 18:33:53 INFO  RestAssuredAPITesting_StripeProject:93 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:34:06 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-18 14:34:27 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:34:46 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:13945
+2022-02-18 14:34:49 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LAo0SVzzCbAx4u",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175067,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetix@gmail.com",
+      "invoice_prefix": "FBC9484A",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "s",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAnzVm9gLrGCXN",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175046,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiI@gmail.com",
+      "invoice_prefix": "B3A5B098",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "K",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnzVm9gLrGCXN/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnzVm9gLrGCXN/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnzVm9gLrGCXN/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAnCAC7vEro6AP",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645172068,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiG@gmail.com",
+      "invoice_prefix": "60367F0A",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "d",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnCAC7vEro6AP/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnCAC7vEro6AP/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnCAC7vEro6AP/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAnAxeMNyVTtNY",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645171963,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiL@gmail.com",
+      "invoice_prefix": "BAC568A0",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "x",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnAxeMNyVTtNY/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnAxeMNyVTtNY/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAnAxeMNyVTtNY/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAn8EKA5IgGEbD",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645171863,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiT@gmail.com",
+      "invoice_prefix": "2BE3F5F4",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "y",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8EKA5IgGEbD/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8EKA5IgGEbD/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8EKA5IgGEbD/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAn8vft5RX69YZ",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645171830,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiV@gmail.com",
+      "invoice_prefix": "77A2CC70",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "D",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8vft5RX69YZ/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8vft5RX69YZ/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAn8vft5RX69YZ/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAmiUFBAQCQSCz",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645170291,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiG@gmail.com",
+      "invoice_prefix": "1C1E1E7E",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAmiUFBAQCQSCz/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAmiUFBAQCQSCz/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAmiUFBAQCQSCz/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAUd0KOyh3CbQH",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645103032,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiE@gmail.com",
+      "invoice_prefix": "4B901B3B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "i",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUd0KOyh3CbQH/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUd0KOyh3CbQH/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUd0KOyh3CbQH/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAUb8aslnrj4g1",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645102894,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiS@gmail.com",
+      "invoice_prefix": "5563D78A",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "m",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUb8aslnrj4g1/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUb8aslnrj4g1/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAUb8aslnrj4g1/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LATFB6QC8UABob",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645097871,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiC@gmail.com",
+      "invoice_prefix": "3645E9FB",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LATFB6QC8UABob/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LATFB6QC8UABob/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LATFB6QC8UABob/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1753
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-18 14:34:49 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-18 14:34:50 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:35:23 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-18 14:35:26 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:35:37 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-18 14:35:39 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:35:55 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-18 14:35:58 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-18 14:35:58 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-18 14:35:58 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-18 14:36:11 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:39:00 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-18 14:39:00 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-18 14:40:34 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:54:01 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:54:19 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:54:42 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:13945
+2022-02-22 17:54:44 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 17:54:44 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCM8wUB9iCo2ku",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532666,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushS@gmail.com",
+      "invoice_prefix": "F1773DF9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "p",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7shl8NTdsc5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushx@gmail.com",
+      "invoice_prefix": "EF805993",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7Hnp1NwgPp5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "2CDABE2C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "a",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LBzsJ7g45lyuh4",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645449861,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiE@gmail.com",
+      "invoice_prefix": "D5E7FC53",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "I",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAobOaxbkmUfU0",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645177326,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiK@gmail.com",
+      "invoice_prefix": "6F4BFC1B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "M",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAoEzQd3xG9g10",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175959,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiJ@gmail.com",
+      "invoice_prefix": "A3498E24",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "z",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo64riN2qPcsT",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175434,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushR@gmail.com",
+      "invoice_prefix": "69C634BF",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "P",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo19yqsIo3gcD",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175171,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetit@gmail.com",
+      "invoice_prefix": "77775B7B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "G",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo0NQMZXeU4tD",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175090,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetii@gmail.com",
+      "invoice_prefix": "37B8BB85",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "u",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo0SVzzCbAx4u",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175067,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetix@gmail.com",
+      "invoice_prefix": "FBC9484A",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "s",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0SVzzCbAx4u/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1794
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 17:54:45 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:54:46 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:55:09 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:13945
+2022-02-22 17:55:12 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCM83859x8oZTd",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532693,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushm@gmail.com",
+      "invoice_prefix": "5E9F270C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "V",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM8wUB9iCo2ku",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532666,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushS@gmail.com",
+      "invoice_prefix": "F1773DF9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "p",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7shl8NTdsc5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushx@gmail.com",
+      "invoice_prefix": "EF805993",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7Hnp1NwgPp5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "2CDABE2C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "a",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LBzsJ7g45lyuh4",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645449861,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiE@gmail.com",
+      "invoice_prefix": "D5E7FC53",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "I",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAobOaxbkmUfU0",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645177326,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiK@gmail.com",
+      "invoice_prefix": "6F4BFC1B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "M",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAoEzQd3xG9g10",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175959,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiJ@gmail.com",
+      "invoice_prefix": "A3498E24",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "z",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo64riN2qPcsT",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175434,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushR@gmail.com",
+      "invoice_prefix": "69C634BF",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "P",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo19yqsIo3gcD",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175171,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetit@gmail.com",
+      "invoice_prefix": "77775B7B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "G",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo19yqsIo3gcD/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo0NQMZXeU4tD",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175090,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Preetii@gmail.com",
+      "invoice_prefix": "37B8BB85",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "u",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo0NQMZXeU4tD/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1817
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 17:55:12 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 17:55:13 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:55:14 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 17:56:23 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 18:56:56 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 18:57:24 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:7090
+2022-02-22 18:57:26 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCN8Pqa9lUENpc",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645536422,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushf@gmail.com",
+      "invoice_prefix": "8C624C69",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "v",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA8852KkrIcryJ",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019307,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@ok.com",
+      "invoice_prefix": "FE3A6B36",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Aayush",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA85nPwC5eAGuW",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019150,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "aayush@gmail.com",
+      "invoice_prefix": "D976EC19",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84yJKHHDjM1N",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019119,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "1DAA4D71",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84PmFsOs98BF",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019083,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "10CC4672",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83mXtHL7zmH2",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019047,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "927FEA68",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83p0y4QI0bJU",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019019,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "B24137C4",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "amit@gmail.com",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA40UXVZXvdJNL",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003992,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Manan@gmail.com",
+      "invoice_prefix": "122684C6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Manan",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA408vozPvVf0I",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003991,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "naman@gmail.com",
+      "invoice_prefix": "E76257DC",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Naman",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA40IPoYh5Mab3",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003990,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "sukh@gmail.com",
+      "invoice_prefix": "D5E8EAC9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Sukh",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1324
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 18:57:26 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 18:57:27 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:13:04 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:13945
+2022-02-22 19:13:06 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:13:06 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCMAFX8POPqENF",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532790,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushD@gmail.com",
+      "invoice_prefix": "0489B2E8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "D",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM9gG1Oe4FYHc",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532720,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushW@gmail.com",
+      "invoice_prefix": "2D2B0BA2",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "N",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM83859x8oZTd",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532693,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushm@gmail.com",
+      "invoice_prefix": "5E9F270C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "V",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM8wUB9iCo2ku",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532666,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushS@gmail.com",
+      "invoice_prefix": "F1773DF9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "p",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7shl8NTdsc5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushx@gmail.com",
+      "invoice_prefix": "EF805993",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LCM7Hnp1NwgPp5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "2CDABE2C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "a",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LBzsJ7g45lyuh4",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645449861,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiE@gmail.com",
+      "invoice_prefix": "D5E7FC53",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "I",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAobOaxbkmUfU0",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645177326,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiK@gmail.com",
+      "invoice_prefix": "6F4BFC1B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "M",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAoEzQd3xG9g10",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175959,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiJ@gmail.com",
+      "invoice_prefix": "A3498E24",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "z",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    },
+    {
+      "id": "cus_LAo64riN2qPcsT",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175434,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushR@gmail.com",
+      "invoice_prefix": "69C634BF",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "P",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAo64riN2qPcsT/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1716
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 19:13:07 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:13:55 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:7090
+2022-02-22 19:13:58 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCN9u9nNpBcqx0",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645536454,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushR@gmail.com",
+      "invoice_prefix": "3DD34853",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "r",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LCN8Pqa9lUENpc",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645536422,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushf@gmail.com",
+      "invoice_prefix": "8C624C69",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "v",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA8852KkrIcryJ",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019307,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@ok.com",
+      "invoice_prefix": "FE3A6B36",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Aayush",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA85nPwC5eAGuW",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019150,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "aayush@gmail.com",
+      "invoice_prefix": "D976EC19",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84yJKHHDjM1N",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019119,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "1DAA4D71",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84PmFsOs98BF",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019083,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "10CC4672",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83mXtHL7zmH2",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019047,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "927FEA68",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83p0y4QI0bJU",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019019,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "B24137C4",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "amit@gmail.com",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA40UXVZXvdJNL",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003992,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Manan@gmail.com",
+      "invoice_prefix": "122684C6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Manan",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA408vozPvVf0I",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003991,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "naman@gmail.com",
+      "invoice_prefix": "E76257DC",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Naman",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1482
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 19:13:58 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 19:13:59 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:14:42 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:7090
+2022-02-22 19:14:45 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LCN9u9nNpBcqx0",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645536454,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushR@gmail.com",
+      "invoice_prefix": "3DD34853",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "r",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LCN8Pqa9lUENpc",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645536422,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushf@gmail.com",
+      "invoice_prefix": "8C624C69",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "v",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA8852KkrIcryJ",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019307,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@ok.com",
+      "invoice_prefix": "FE3A6B36",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Aayush",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA85nPwC5eAGuW",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019150,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "aayush@gmail.com",
+      "invoice_prefix": "D976EC19",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84yJKHHDjM1N",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019119,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "1DAA4D71",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA84PmFsOs98BF",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019083,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@info.com",
+      "invoice_prefix": "10CC4672",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83mXtHL7zmH2",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019047,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "927FEA68",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": null,
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA83p0y4QI0bJU",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645019019,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "amit@gmail.com",
+      "invoice_prefix": "B24137C4",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "amit@gmail.com",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA40UXVZXvdJNL",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003992,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Manan@gmail.com",
+      "invoice_prefix": "122684C6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Manan",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    },
+    {
+      "id": "cus_LA408vozPvVf0I",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1645003991,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "naman@gmail.com",
+      "invoice_prefix": "E76257DC",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Naman",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "tax_exempt": "none"
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1586
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-02-22 19:14:45 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-02-22 19:14:46 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-02-23 15:22:32 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Status Code************
+2022-02-23 15:26:46 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Status Code************
+2022-02-23 15:28:10 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Time************
+2022-02-23 15:30:42 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Status Code************
+2022-02-23 15:30:55 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Status Code************
+2022-02-23 15:38:29 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-02-23 15:38:48 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-02-23 16:56:58 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-02-23 16:57:37 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-02-23 16:57:47 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-02-23 16:58:07 INFO  RestAssuredAPITesting_StripeProject:38 - **************Checking Status Code************
+2022-03-11 19:01:55 INFO  RestAssuredAPITesting_StripeProject:36 - **************Checking Status Code************
+2022-03-11 19:09:11 INFO  RestAssuredAPITesting_StripeProject:36 - **************Checking Status Code************
+2022-03-11 19:09:47 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:14211
+2022-03-11 19:09:50 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LIePzyI8JdfZ3a",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1646984509,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "shubham@gmail.com",
+      "invoice_prefix": "C7CFBF27",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Shubham",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCMAFX8POPqENF",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532790,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushD@gmail.com",
+      "invoice_prefix": "0489B2E8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "D",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM9gG1Oe4FYHc",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532720,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushW@gmail.com",
+      "invoice_prefix": "2D2B0BA2",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "N",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM83859x8oZTd",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532693,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushm@gmail.com",
+      "invoice_prefix": "5E9F270C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "V",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM8wUB9iCo2ku",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532666,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushS@gmail.com",
+      "invoice_prefix": "F1773DF9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "p",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM7shl8NTdsc5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushx@gmail.com",
+      "invoice_prefix": "EF805993",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "J",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7shl8NTdsc5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM7Hnp1NwgPp5",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532647,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "2CDABE2C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "a",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM7Hnp1NwgPp5/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LBzsJ7g45lyuh4",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645449861,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiE@gmail.com",
+      "invoice_prefix": "D5E7FC53",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "I",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LBzsJ7g45lyuh4/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LAobOaxbkmUfU0",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645177326,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiK@gmail.com",
+      "invoice_prefix": "6F4BFC1B",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "M",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAobOaxbkmUfU0/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LAoEzQd3xG9g10",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645175959,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "PreetiJ@gmail.com",
+      "invoice_prefix": "A3498E24",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "z",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LAoEzQd3xG9g10/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1926
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-03-11 19:09:50 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-03-11 19:10:21 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-03-11 19:10:24 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-03-11 19:10:24 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1665
+2022-03-11 19:10:24 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-03-11 19:10:35 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-03-11 19:10:38 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:10:51 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-03-11 19:11:16 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:11:40 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-03-11 19:11:40 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:12:33 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-03-11 19:12:33 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-03-11 19:12:33 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:13:44 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-03-11 19:14:05 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:14:40 INFO  RestAssuredAPITesting_StripeProject:34 - **************Checking Status Code************
+2022-03-11 19:16:04 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:14211
+2022-03-11 19:16:06 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LIkF289cK2svQk",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006244,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushH@gmail.com",
+      "invoice_prefix": "21B918D1",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "t",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkF69SAjkIYcQ",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006223,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushl@gmail.com",
+      "invoice_prefix": "5A06A75E",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "c",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkERrhRzZGpnM",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006152,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushA@gmail.com",
+      "invoice_prefix": "3FDFDC1D",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "e",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkCgmpUzp0xkl",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006075,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushN@gmail.com",
+      "invoice_prefix": "44819338",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "C",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkCBWO5Kcw10T",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006050,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "57B87AC1",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Y",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIePzyI8JdfZ3a",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1646984509,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "shubham@gmail.com",
+      "invoice_prefix": "C7CFBF27",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Shubham",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCMAFX8POPqENF",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532790,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushD@gmail.com",
+      "invoice_prefix": "0489B2E8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "D",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM9gG1Oe4FYHc",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532720,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushW@gmail.com",
+      "invoice_prefix": "2D2B0BA2",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "N",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM83859x8oZTd",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532693,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushm@gmail.com",
+      "invoice_prefix": "5E9F270C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "V",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM8wUB9iCo2ku",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532666,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushS@gmail.com",
+      "invoice_prefix": "F1773DF9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "p",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM8wUB9iCo2ku/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1684
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-03-11 19:16:06 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-03-11 19:16:07 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-03-11 19:16:08 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:17:10 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC001_Get_All_Customers*************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:95 - **************Checking Content Length************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:97 - Content Length is:14211
+2022-03-11 19:17:12 WARN  RestAssuredAPITesting_StripeProject:100 - Content Length is less then 15000
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Content Type************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:79 - Content Type is:application/json
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:39 - Response Body=>{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_LIkHTiSKvjdBFf",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006367,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushr@gmail.com",
+      "invoice_prefix": "D31B63B8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "b",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkHTiSKvjdBFf/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkHTiSKvjdBFf/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkHTiSKvjdBFf/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkF289cK2svQk",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006244,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushH@gmail.com",
+      "invoice_prefix": "21B918D1",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "t",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF289cK2svQk/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkF69SAjkIYcQ",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006223,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushl@gmail.com",
+      "invoice_prefix": "5A06A75E",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "c",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkF69SAjkIYcQ/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkERrhRzZGpnM",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006152,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushA@gmail.com",
+      "invoice_prefix": "3FDFDC1D",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "e",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkERrhRzZGpnM/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkCgmpUzp0xkl",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006075,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushN@gmail.com",
+      "invoice_prefix": "44819338",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "C",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCgmpUzp0xkl/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIkCBWO5Kcw10T",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1647006050,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushY@gmail.com",
+      "invoice_prefix": "57B87AC1",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Y",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIkCBWO5Kcw10T/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LIePzyI8JdfZ3a",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1646984509,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "shubham@gmail.com",
+      "invoice_prefix": "C7CFBF27",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Shubham",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LIePzyI8JdfZ3a/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCMAFX8POPqENF",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532790,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushD@gmail.com",
+      "invoice_prefix": "0489B2E8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "D",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCMAFX8POPqENF/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM9gG1Oe4FYHc",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532720,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "AayushW@gmail.com",
+      "invoice_prefix": "2D2B0BA2",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "N",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM9gG1Oe4FYHc/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    },
+    {
+      "id": "cus_LCM83859x8oZTd",
+      "object": "customer",
+      "account_balance": 0,
+      "address": null,
+      "balance": 0,
+      "created": 1645532693,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "Aayushm@gmail.com",
+      "invoice_prefix": "5E9F270C",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "V",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+
+      ],
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/subscriptions"
+      },
+      "tax_exempt": "none",
+      "tax_ids": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/customers/cus_LCM83859x8oZTd/tax_ids"
+      },
+      "tax_info": null,
+      "tax_info_verification": null,
+      "test_clock": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/customers"
+}
+
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:55 - **************Checking Response Time************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:57 - Response Time is:1753
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Server Type************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:88 - Server Type is:nginx
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:45 - **************Checking Status Code************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:49 - Status Code is:200
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Status Line************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:71 - Status Line is:HTTP/1.1 200 OK
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:107 - **************Finished TC001_Get_All_Customers*************
+2022-03-11 19:17:12 INFO  RestAssuredAPITesting_StripeProject:18 - **************Started TC002_Get_Single_Customer*************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:87 - **************Checking Content Length************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:69 - **************Checking Content Type************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:37 - **************Checking Response Body************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:53 - **************Checking Response Time************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:78 - **************Checking Server Type************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:44 - **************Checking Status Code************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:61 - **************Checking Status Line************
+2022-03-11 19:17:13 INFO  RestAssuredAPITesting_StripeProject:95 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:86 - **************Checking Content Length************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:68 - **************Checking Content Type************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:52 - **************Checking Response Time************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:77 - **************Checking Server Type************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:43 - **************Checking Status Code************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:60 - **************Checking Status Line************
+2022-03-11 19:17:14 INFO  RestAssuredAPITesting_StripeProject:94 - **************Finished TC002_Get_Single_Customers*************
+2022-03-11 19:17:15 INFO  RestAssuredAPITesting_StripeProject:34 - **************Checking Status Code************

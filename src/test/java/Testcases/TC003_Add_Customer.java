@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import utilities.RestUtils;
 
 public class TC003_Add_Customer extends TestBase {
+
     String custid;
     String name;
 
@@ -33,7 +34,7 @@ public class TC003_Add_Customer extends TestBase {
         httpRequest.formParam("email", custid);
 
         httpRequest.formParam("name", name);
-        httpRequest.request(Method.POST, "/v1/customers");
+        response =  httpRequest.request(Method.POST, "/v1/customers");
         //Thread.sleep(3);
     }
 
@@ -42,7 +43,7 @@ public class TC003_Add_Customer extends TestBase {
         logger.info("**************Checking Status Code************");
         //Status code Validation
         int statusCode = response.statusCode();
-
+        System.out.println(statusCode);
         Assert.assertEquals(statusCode, 200);
     }
 
